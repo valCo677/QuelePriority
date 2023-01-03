@@ -1,0 +1,23 @@
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class Main {
+    public static void main( String[] args ) {
+        Queue<String> pq = new PriorityQueue<> ();
+        pq.add ( "Case 1" );
+        pq.add ( "Case 2" );
+        pq.add ( "Case 3" );
+
+        System.out.println ( pq );
+        pq.remove ();
+        System.out.println ( pq );
+        for (String i : pq) {
+            System.out.println ( i );
+
+        }
+    }
+}
+
+
+
+
